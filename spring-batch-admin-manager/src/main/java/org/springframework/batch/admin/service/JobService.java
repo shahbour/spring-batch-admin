@@ -338,4 +338,6 @@ public interface JobService {
 	 */
 	Collection<String> getStepNamesForJob(String jobName) throws NoSuchJobException;
 
+
+    public void removeInactiveExecutions();
 }
